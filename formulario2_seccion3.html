@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Proveedores - Sección 3</title>
+</head>
+
+<body>
+
+    <h1 style="text-align: center;">COMPRAS Y MANEJO DE PROVEEDORES</h1>
+    <h2 style="text-align: center;">REGISTRO DE PROVEEDORES</h2>
+
+    <form action="">
+        <fieldset>
+            <legend style="text-align: center;">3. INFORMACIÓN TRIBUTARIA</legend>
+
+            <label>Gran contribuyente:</label>
+            <input type="radio" name="granContribuyente" id="granSi" value="Si">
+            <label for="granSi">Si</label>
+            <input type="radio" name="granContribuyente" id="granNo" value="No">
+            <label for="granNo">No</label>
+
+            <label>Responsable de IVA:</label>
+            <input type="radio" name="responsableIva" id="ivaSi" value="Si">
+            <label for="ivaSi">Si</label>
+            <input type="radio" name="responsableIva" id="ivaNo" value="No">
+            <label for="ivaNo">No</label>
+            <br><br>
+
+            <label>Autorretenedor:</label>
+            <input type="radio" name="autorretenedor" id="autoSi" value="Si">
+            <label for="autoSi">Si</label>
+            <input type="radio" name="autorretenedor" id="autoNo" value="No">
+            <label for="autoNo">No</label>
+
+            <label>Declarante de renta:</label>
+            <input type="radio" name="declaranteRenta" id="rentaSi" value="Si">
+            <label for="rentaSi">Si</label>
+            <input type="radio" name="declaranteRenta" id="rentaNo" value="No">
+            <label for="rentaNo">No</label>
+
+            <label for="actPrincipal">Actividad principal:</label>
+            <select name="actPrincipal" id="actPrincipal">
+                <option value="agricultura">Agricultura, ganadería, caza, silvicultura y pesca</option>
+                <option value="explotacion">Explotación de minas y canteras</option>
+                <option value="industrias">Industrias manufactureras</option>
+                <option value="comercio">Comercio al por mayor y al por menor</option>
+                <option value="transporte">Transporte y almacenamiento</option>
+                <option value="actividades">Actividades de servicios</option>
+            </select>
+        </fieldset>
+    </form>
+
+    <br>
+    <div style="text-align: center;">
+        <a href="formulario2_seccion2.html">
+            <button type="button" style="width: 120px; padding: 8px;">&laquo; Anterior</button>
+        </a>
+        <a href="formulario2_seccion4.html">
+            <button type="button" style="width: 120px; padding: 8px;">Siguiente &raquo;</button>
+        </a>
+    </div>
+
+</body>
+
+</html>

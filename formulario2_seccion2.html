@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Proveedores - Sección 2</title>
+</head>
+
+<body>
+
+    <h1 style="text-align: center;">COMPRAS Y MANEJO DE PROVEEDORES</h1>
+    <h2 style="text-align: center;">REGISTRO DE PROVEEDORES</h2>
+
+    <form action="">
+        <fieldset>
+            <legend style="text-align: center;">2. REPRESENTANTE LEGAL Y PERSONAS CONTACTO</legend>
+
+            <table style="width: 100%; border: none;">
+                <tr>
+                    <td><label for="representante">Representante Legal:</label></td>
+                    <td><input type="text" name="representante" id="representante" size="30"></td>
+                    <td><label for="docIdentidad">Documento Identidad:</label></td>
+                    <td><input type="text" name="docIdentidad" id="docIdentidad" size="20"></td>
+                </tr>
+                <tr>
+                    <td><label for="cargoRep">Cargo:</label></td>
+                    <td>
+                        <select name="cargoRep" id="cargoRep">
+                            <option value="">Gerente</option>
+                            <option value="">Administrador</option>
+                            <option value="">Auxiliar administrativo</option>
+                            <option value="">Contador</option>
+                            <option value="">Vendedor</option>
+                            <option value="">Cajero</option>
+                            <option value="">Supervisor</option>
+                            <option value="">Coordinador</option>
+                            <option value="">Asistente</option>
+                            <option value="">Analista</option>
+                            <option value="">Otros</option>
+                        </select>
+                    </td>
+                    <td><label for="telefono">Teléfono:</label></td>
+                    <td><input type="tel" name="telefono" id="telefono" size="20"></td>
+                </tr>
+                <tr>
+                    <td><label for="celularRep">Celular:</label></td>
+                    <td><input type="tel" name="celularRep" id="celularRep" size="15"></td>
+                    <td><label for="emailRep">E-mail:</label></td>
+                    <td><input type="email" name="emailRep" id="emailRep" size="25"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    <br />
+
+    <table border="1" style="width: 100%;">
+        <tr>
+            <th>ÁREA</th>
+            <th>NOMBRE</th>
+            <th>CARGO</th>
+            <th>TELÉFONO</th>
+            <th>E-MAIL</th>
+        </tr>
+        <tr>
+            <td><b>COMERCIAL</b></td>
+            <td><input type="text" name="nombreComercial" id="nombreComercial"
+                    style="width: 100%; box-sizing: border-box;"></td>
+            <td>
+                <select name="cargoComercial" id="cargoComercial" style="width: 100%; box-sizing: border-box;">
+                    <option value=""></option>
+                    <option value="Gerente">Gerente</option>
+                    <option value="Administrador">Administrador</option>
+                    <option value="Auxiliar administrativo">Auxiliar administrativo</option>
+                    <option value="Contador">Contador</option>
+                    <option value="Vendedor">Vendedor</option>
+                    <option value="Cajero">Cajero</option>
+                    <option value="Supervisor">Supervisor</option>
+                    <option value="Coordinador">Coordinador</option>
+                    <option value="Asistente">Asistente</option>
+                    <option value="Analista">Analista</option>
+                    <option value="Otros">Otros</option>
+                </select>
+            </td>
+            <td><input type="tel" name="telComercial" id="telComercial" style="width: 100%; box-sizing: border-box;">
+            </td>
+            <td><input type="email" name="emailComercial" id="emailComercial"
+                    style="width: 100%; box-sizing: border-box;"></td>
+        </tr>
+        <tr>
+            <td><b>TÉCNICA</b></td>
+            <td><input type="text" name="nombreTecnica" id="nombreTecnica" style="width: 100%; box-sizing: border-box;">
+            </td>
+            <td>
+                <select name="cargoTecnica" id="cargoTecnica" style="width: 100%; box-sizing: border-box;">
+                    <option value=""></option>
+                    <option value="Gerente">Gerente</option>
+                    <option value="Administrador">Administrador</option>
+                    <option value="Auxiliar administrativo">Auxiliar administrativo</option>
+                    <option value="Contador">Contador</option>
+                    <option value="Vendedor">Vendedor</option>
+                    <option value="Cajero">Cajero</option>
+                    <option value="Supervisor">Supervisor</option>
+                    <option value="Coordinador">Coordinador</option>
+                    <option value="Asistente">Asistente</option>
+                    <option value="Analista">Analista</option>
+                    <option value="Otros">Otros</option>
+                </select>
+            </td>
+            <td><input type="tel" name="telTecnica" id="telTecnica" style="width: 100%; box-sizing: border-box;"></td>
+            <td><input type="email" name="emailTecnica" id="emailTecnica" style="width: 100%; box-sizing: border-box;">
+            </td>
+        </tr>
+    </table>
+
+
+
+    <br>
+    <div style="text-align: center;">
+        <a href="formulario2_seccion1.html">
+            <button type="button" style="width: 120px; padding: 8px;">&laquo; Anterior</button>
+        </a>
+        <a href="formulario2_seccion3.html">
+            <button type="button" style="width: 120px; padding: 8px;">Siguiente &raquo;</button>
+        </a>
+    </div>
+
+</body>
+
+</html>

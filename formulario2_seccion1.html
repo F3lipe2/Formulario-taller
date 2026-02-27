@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Proveedores - Sección 1</title>
+</head>
+
+<body>
+
+    <h1 style="text-align: center;">COMPRAS Y MANEJO DE PROVEEDORES</h1>
+    <h2 style="text-align: center;">REGISTRO DE PROVEEDORES</h2>
+
+    <form action="">
+        <fieldset>
+            <legend style="text-align: center;">1. INFORMACIÓN GENERAL DEL PROVEEDOR</legend>
+
+            <label for="razonSocial">RAZÓN SOCIAL/NOMBRE:</label>
+            <input type="text" name="razonSocial" id="razonSocial" size="60">
+            <br><br>
+
+            <label for="nit">NIT/CC:</label>
+            <input type="text" name="nit" id="nit" size="20">
+            <label for="dv">DV:</label>
+            <input type="text" name="dv" id="dv" size="5">
+            <br><br>
+
+            <label>NATURALEZA JURÍDICA:</label>
+            <input type="radio" name="naturaleza" id="natural" value="Natural">
+            <label for="natural">Persona Natural</label>
+            <input type="radio" name="naturaleza" id="juridica" value="Juridica">
+            <label for="juridica">Persona Jurídica</label>
+            <br><br>
+
+            <label>TIPO DE SOCIEDAD (No aplica para persona natural):</label><br>
+            <label for="tipoSociedad">Tipo de Sociedad:</label>
+            <select name="tipoSociedad" id="tipoSociedad">
+                <option value="Bogota">Sociedad anonima</option>
+                <option value="Cali">Sociedad limitada</option>
+                <option value="Medellin">Empresa estatal</option>
+                <option value="Barranquilla">Empresa unipersonal</option>
+                <option value="Bucaramanga">Sociedad por acciones simplificada</option>
+                <option value="Buenaventura">Sucursal Colombia Empresa Extranjera</option>
+                <option value="Cartagena">Empresa Extranjera</option>
+                <option value="Cúcuta">Otra</option>
+            </select>
+        </fieldset>
+    </form>
+
+    <form action="">
+        <fieldset>
+            <legend style="text-align: center;">SEDE PRINCIPAL</legend>
+
+            <label for="direccion">Dirección:</label>
+            <input type="text" name="direccion" id="direccion" size="80">
+            <br><br>
+
+            <label for="ciudad">Ciudad:</label>
+            <select name="ciudad" id="ciudad">
+                <option value="Bogota">Bogota</option>
+                <option value="Cali">Cali</option>
+                <option value="Medellin">Medellin</option>
+                <option value="Barranquilla">Barranquilla</option>
+                <option value="Bucaramanga">Bucaramanga</option>
+                <option value="Buenaventura">Buenaventura</option>
+                <option value="Cartagena">Cartagena</option>
+                <option value="Cúcuta">Cúcuta</option>
+                <option value="Ibagué">Ibagué</option>
+                <option value="Manizales">Manizales</option>
+                <option value="Medellin">Medellin</option>
+                <option value="Neiva">Neiva</option>
+                <option value="Pereira">Pereira</option>
+                <option value="Popayán">Popayán</option>
+                <option value="Quibdó">Quibdó</option>
+                <option value="Santa Marta">Santa Marta</option>
+                <option value="Sincelejo">Sincelejo</option>
+                <option value="Tunja">Tunja</option>
+                <option value="Valledupar">Valledupar</option>
+            </select>
+            <label for="departamento">Departamento:</label>
+            <select name="departamento" id="departamento">
+                <option value="Quindio">Quindio</option>
+                <option value="Choco">Choco</option>
+                <option value="Cauca">Cauca</option>
+                <option value="Antioquia">Antioquia</option>
+                <option value="Cesar">Cesar</option>
+                <option value="Bolívar">Bolívar</option>
+                <option value="Boyacá">Boyacá</option>
+                <option value="Caldas">Caldas</option>
+                <option value="Cundinamarca">Cundinamarca</option>
+                <option value="Huila">Huila</option>
+                <option value="Magdalena">Magdalena</option>
+                <option value="Meta">Meta</option>
+                <option value="Nariño">Nariño</option>
+                <option value="Putumayo">Putumayo</option>
+                <option value="Quindío">Quindío</option>
+                <option value=" Risaralda">Risaralda</option>
+                <option value="Santander">Santander</option>
+                <option value="Sucre">Sucre</option>
+                <option value="Tolima">Tolima</option>
+                <option value="Valle">Valle</option>
+                <option value="Vaupés">Vaupés</option>
+                <option value="Vichada">Vichada</option>
+            </select>
+            <label for="pais">País:</label>
+            <select name="pais" id="pais">
+                <option value="Colombia">Colombia</option>
+                <option value="Peru">Peru</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Venezuela">Venezuela</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Chile">Chile</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Paraguay">Paraguay</option>
+                <option value="Bolivia">Bolivia</option>
+            </select>
+            <br><br>
+
+            <label for="telefono">Teléfono (principal):</label>
+            <input type="tel" name="telefono" id="telefono" size="15">
+            <label for="celular">Celular:</label>
+            <input type="tel" name="celular" id="celular" size="15">
+            <label for="emailSede">Email:</label>
+            <input type="email" name="emailSede" id="emailSede" size="25">
+        </fieldset>
+    </form>
+
+    <br>
+    <div style="text-align: center;">
+        <a href="formulario2_seccion2.html">
+            <button type="button" style="width: 120px; padding: 8px;">Siguiente &raquo;</button>
+        </a>
+    </div>
+
+</body>
+
+</html>
